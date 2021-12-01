@@ -8,6 +8,16 @@
     "libraries": [
         {
             "downloads": {
+                "artifact": {
+                    "sha1": "369a83621e3c65496348491e533cb97fe5f2f37d",
+                    "size": 91947,
+                    "url": "https://minecraftmachina.github.io/minecraft-arm64-patches/java-objc-bridge-1.1/java-objc-bridge-1.1.jar"
+                }
+            },
+            "name": "ca.weblite:java-objc-bridge:1.1.0-mmachina"
+        },
+        {
+            "downloads": {
                 "classifiers": {
                     "natives-linux": {
                         "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",

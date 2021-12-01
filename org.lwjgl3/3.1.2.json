@@ -9,6 +9,16 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "369a83621e3c65496348491e533cb97fe5f2f37d",
+                    "size": 91947,
+                    "url": "https://minecraftmachina.github.io/minecraft-arm64-patches/java-objc-bridge-1.1/java-objc-bridge-1.1.jar"
+                }
+            },
+            "name": "ca.weblite:java-objc-bridge:1.1.0-mmachina"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "2307f1c0eda907d3c2c26f559eb96a78212d1dec",
                     "size": 130287,
                     "url": "https://minecraftmachina.github.io/minecraft-arm64-patches/lwjgl-3.3.0/lwjgl-glfw-3.3.0.jar"
