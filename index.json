@@ -8,7 +8,7 @@
         },
         {
             "name": "Fabric Loader",
-            "sha256": "cefae3e0cbbca80a995fb0f9b40f8ee8cbd17bd83ba83d779e39d6b42e5e495f",
+            "sha256": "b1c59ef1735cc31583e0e27e505b7dfeda8c51d11e21e55edf1675b3b9f8eefd",
             "uid": "net.fabricmc.fabric-loader"
         },
         {
@@ -23,7 +23,7 @@
         },
         {
             "name": "Forge",
-            "sha256": "1a318f6ec827299f3f4e47816000a1d28e5f0745268d9f6d89fecbca98ad40da",
+            "sha256": "51e67d78c5b0b99944eac87fe597d76d1da255c15d9756b0cfe0094dc95c8bcf",
             "uid": "net.minecraftforge"
         },
         {
