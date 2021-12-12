@@ -19,7 +19,9 @@ def scan_dict_item(item: Dict[Any, Any]):
                     scan_dict_item(item)
         if isinstance(k, str):
             if k == "size":
-                data = requests.get(item["url"]).content
+                resp = requests.get(item["url"])
+                resp.raise_for_status()
+                data = resp.content
                 item["size"] = len(data)
                 if "sha1" in item:
                     item["sha1"] = hashlib.sha1(data).hexdigest()
