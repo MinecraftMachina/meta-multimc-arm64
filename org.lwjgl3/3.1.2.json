@@ -44,28 +44,16 @@
                     "url": "https://minecraftmachina.github.io/minecraft-arm64-patches/lwjgl-3.3.0/lwjgl-glfw-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "63e71d91dc7f92a67b64bb344a559257126eef0a",
-                        "size": 111213,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.0/lwjgl-glfw-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "1cc19d82bd2a486cb709a4cf7b4962fe65901199",
                         "size": 64208,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.0/lwjgl-glfw-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "55f7adddaa1f575635f35fec166f0e80272bd85e",
-                        "size": 123737,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.0/lwjgl-glfw-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-glfw:3.3.0-mmachina",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -86,28 +74,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.0/lwjgl-jemalloc-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "a53a23f1496f6e5a91a2417b705272c1b0b861eb",
-                        "size": 157998,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.0/lwjgl-jemalloc-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "8ccf1138c54f1bf67a92317922231cba2a60d596",
                         "size": 102286,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.0/lwjgl-jemalloc-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "fc4438bc0bd9535b3bb02aeae287a5cec3cf58dc",
-                        "size": 106981,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.0/lwjgl-jemalloc-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-jemalloc:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -128,28 +104,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.0/lwjgl-openal-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "b47e1f69ed5a23d6cfb68901a7179c47f39489d8",
-                        "size": 470745,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.0/lwjgl-openal-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "a819bc83171a98349c13749cbde3a956946cf0ca",
                         "size": 346127,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.0/lwjgl-openal-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "c297c0db767a23af1ace227664ddd2887e900a43",
-                        "size": 505235,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.0/lwjgl-openal-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-openal:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -170,28 +134,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.0/lwjgl-opengl-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "44d9768522b597e07e090673a59508fd8075a1a6",
-                        "size": 57912,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.0/lwjgl-opengl-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "6bac5f116d0c8f64cad7508a08aa512eb28b568a",
                         "size": 41648,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.0/lwjgl-opengl-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "0b08e49c2ac976942b5fd6f146b790d0c0098c39",
-                        "size": 82209,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.0/lwjgl-opengl-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-opengl:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -212,28 +164,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.0/lwjgl-stb-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "a2b6b2e27fa31e4cd2f38d9b7ff5ebfc67d3e81b",
-                        "size": 205476,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.0/lwjgl-stb-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "058db805624ca56d9870346ff49cf386bb00177b",
                         "size": 171497,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.0/lwjgl-stb-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "25e92c7a10d7cc73c771796e278b31b419cc5cb2",
-                        "size": 216851,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.0/lwjgl-stb-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-stb:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -254,38 +194,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0.jar"
                 },
                 "classifiers": {
-                    "javadoc": {
-                        "sha1": "1d95e19d1b205ab4315c0607854615ab73fdbb0f",
-                        "size": 372019,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0-javadoc.jar"
-                    },
-                    "natives-linux": {
-                        "sha1": "0329bf685c48930f6a4c5987cfbff242d094e8a1",
-                        "size": 42641,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "95822d8d5a816a82ae598d027c076af9f5519794",
                         "size": 40895,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "925a96e3b08a1943f3f3910d8cd88dee87ea9fbd",
-                        "size": 109139,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0-natives-windows-arm64.jar"
-                    },
-                    "sources": {
-                        "sha1": "6b3d800ec29bcf398759f13661f807fc79a1e49b",
-                        "size": 5530,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.0/lwjgl-tinyfd-3.3.0-sources.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl-tinyfd:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         },
         {
@@ -306,28 +224,16 @@
                     "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.0/lwjgl-3.3.0.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "sha1": "2ee5effd729268370c0f324cef9c26f95baf68b9",
-                        "size": 72899,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.0/lwjgl-3.3.0-natives-linux-arm64.jar"
-                    },
                     "natives-macos": {
                         "sha1": "f4a5d3b1faa210a27b5592bd2ac9ed07b5a8d891",
                         "size": 41619,
                         "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.0/lwjgl-3.3.0-natives-macos-arm64.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "a2a2ab21d619a4b08fdb52962761ccd822573908",
-                        "size": 127581,
-                        "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.0/lwjgl-3.3.0-natives-windows-arm64.jar"
                     }
                 }
             },
             "name": "org.lwjgl:lwjgl:3.3.0",
             "natives": {
-                "linux": "natives-linux",
-                "osx": "natives-macos",
-                "windows": "natives-windows"
+                "osx": "natives-macos"
             }
         }
     ],
