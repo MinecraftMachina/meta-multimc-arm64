@@ -1,0 +1,25 @@
+name: Scheduled Merge Remote Action
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  merge-upstream:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.2
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Sync upstream changes
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.2
+        with:
+          target_sync_branch: master
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_sync_branch: master
+          upstream_sync_repo: MultiMC/meta-multimc
+          upstream_repo_access_token: ${{ secrets.GITHUB_TOKEN }}
+          test_mode: false
