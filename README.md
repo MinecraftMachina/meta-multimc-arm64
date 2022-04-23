@@ -17,7 +17,7 @@ This is the meta package used for [ManyMC](https://github.com/MinecraftMachina/M
 - text2speech 1.11.3 has been forced on Minecraft 1.12-1.13 to fix a crash on boot.
 - [java-objc-bridge-mmachina](https://github.com/MinecraftMachina/Java-Objective-C-Bridge) replaces Java-Objective-C-Bridge, fixing fullscreen.
 
-This package is set up to automatically synchronize with the original package, thanks to the [pull app](https://wei.github.io/pull/), so any new Minecraft and mod loader versions should be instantly supported.
+This package is set up to periodically synchronize with the original package using GitHub Actions, so any new Minecraft and mod loader versions should be automatically supported.
 
 ## Development
 
