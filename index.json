@@ -8,7 +8,7 @@
         },
         {
             "name": "Fabric Loader",
-            "sha256": "2d06fb3d32e38d772185f2f609e715e2d9b2f1d9317a6936096cd14dd2a688ab",
+            "sha256": "39db689fa2b0e7b7c46341b0117206a0f75a95f695b59733b142f50881e7449a",
             "uid": "net.fabricmc.fabric-loader"
         },
         {
@@ -38,7 +38,7 @@
         },
         {
             "name": "Quilt Loader",
-            "sha256": "37823949b98b41c413bcace9ae92dd43a8c93f40c2be66efe7c1e5015a6b23a6",
+            "sha256": "303f0ea7d4c72a608956b9259e892532e1a8e16ae099969addcffbad40361da1",
             "uid": "org.quiltmc.quilt-loader"
         }
     ]
