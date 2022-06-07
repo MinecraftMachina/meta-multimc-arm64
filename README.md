@@ -1,7 +1,5 @@
 # ManyMC Meta Package for arm64
 
-> ### ⚠️ ManyMC is NOT SUPPORTED by the MultiMC team. Only report issues with ManyMC here.
-
 ## Supported platforms
 
 Currently, only macOS arm64 (M1) is supported.
@@ -10,7 +8,7 @@ Currently, only macOS arm64 (M1) is supported.
 
 This is the meta package used for [ManyMC](https://github.com/MinecraftMachina/ManyMC). It holds metadata that points ManyMC to all available versions of Minecraft, its dependencies and mod loaders. The idea is that this package can be updated at any time and all versions of ManyMC will use the new data - no update necessary.
 
-## Changes from MultiMC meta package
+## Changes from PolyMC meta package
 
 - [lwjgl3-mmachina](https://github.com/MinecraftMachina/lwjgl3) replaces LWJGL3, bringing upstream arm64 support and containing a patch to fix crash on boot on Minecraft 1.17 and before.
 - [lwjgl2-mmachina](https://github.com/MinecraftMachina/lwjgl) replaces LWJGL2, containing patches for MacOS on arm64.
