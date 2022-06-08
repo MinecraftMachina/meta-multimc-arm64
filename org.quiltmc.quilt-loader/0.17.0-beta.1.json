@@ -43,19 +43,19 @@
         },
         {
             "name": "org.quiltmc:quilt-loader:0.17.0-beta.1",
-            "url": "https://maven.quiltmc.org/repository/release/"
+            "url": "https://maven.quiltmc.org/repository/release"
         }
     ],
     "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
     "name": "Quilt Loader",
     "order": 10,
-    "releaseTime": "2022-05-31T03:14:30+00:00",
+    "releaseTime": "2022-05-31T03:15:13+00:00",
     "requires": [
         {
             "uid": "net.fabricmc.intermediary"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "org.quiltmc.quilt-loader",
     "version": "0.17.0-beta.1"
 }

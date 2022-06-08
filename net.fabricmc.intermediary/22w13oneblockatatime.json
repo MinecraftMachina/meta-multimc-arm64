@@ -8,7 +8,7 @@
     ],
     "name": "Intermediary Mappings",
     "order": 11,
-    "releaseTime": "2022-04-01T15:31:12+00:00",
+    "releaseTime": "2022-04-01T15:31:14+00:00",
     "requires": [
         {
             "equals": "22w13oneblockatatime",

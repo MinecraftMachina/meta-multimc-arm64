@@ -1,11 +1,11 @@
 {
     "authors": [
-        "Quilt Developers"
+        "Quilt Project"
     ],
-    "description": "Quilt Loader is a tool to load Quilt-compatible mods in game environments.",
+    "description": "The Quilt project is an open, community-driven modding toolchain designed primarily for Minecraft.",
     "formatVersion": 1,
     "name": "Quilt Loader",
-    "projectUrl": "https://quiltmc.org",
+    "projectUrl": "https://quiltmc.org/",
     "recommended": [
         "0.16.1"
     ],
