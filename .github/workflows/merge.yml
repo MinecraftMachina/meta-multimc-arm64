@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
 
       - name: Sync upstream changes
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.2
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.3.1
         with:
           target_sync_branch: master
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
