@@ -19,6 +19,6 @@ jobs:
           target_sync_branch: master
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_branch: master
-          upstream_sync_repo: PolyMC/meta-polymc
+          upstream_sync_repo: PrismLauncher/meta-polymc
           upstream_repo_access_token: ${{ secrets.GITHUB_TOKEN }}
           test_mode: false
